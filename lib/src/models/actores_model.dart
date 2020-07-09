@@ -34,7 +34,7 @@ class Actor {
   });
 
   Actor.fromJsonMap( Map<String, dynamic> json ) {
-    castId = json['castId'];
+    castId = json['cast_id'];
     character = json['character'];
     creditId = json['credit_id'];
     gender = json['gender'];
